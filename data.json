@@ -1,0 +1,14 @@
+{
+    "teacher": [
+        {
+            "id": 1,
+            "avatar_url": "https://google.com",
+            "nome": "Erick Fernandes de Farias Santos",
+            "data_de_nascimento": 1613490783549,
+            "grau_de_escolaridade": "Nível_médio",
+            "tipo_de_aula": "D",
+            "tipo_de_atuação": "Programação",
+            "dataInicio": 1613490783549
+        }
+    ]
+}

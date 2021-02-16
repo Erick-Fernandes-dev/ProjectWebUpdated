@@ -1,0 +1,70 @@
+{% extends "layout.njk" %}
+
+{% block content %}
+
+    <form class="card" method="POST" action="/teacher">
+        <section class="avatar" style="background: url(https://source.unsplash.com/collection/1361815/700x700) no-repeat center center / cover"></section>
+        <section class="details">
+
+            <h3>Novo Professor</h3>
+
+            <div class="item">
+                <div>Avatar url</div>
+                <div>
+                    <input type="url" name="avatar_url" placeholder="https://"/>
+                </div>
+            </div>
+
+            <div class="item">
+                <div>Nome completo</div>
+                <div>
+                    <input type="text" name="nome" placeholder="nome"/>
+                </div>
+            </div>
+
+            <div class="item">
+                <div>Data de nascimento</div>
+                <div>
+                    <input type="date" name="data_de_nascimento"/>
+                </div>
+            </div>
+
+            <div class="item">
+                <div>Grau de escolaridade</div>
+                <div>
+                    <select name="grau_de_escolaridade">
+                        <option value="Nível_médio">Ensino médio completo</option>
+                        <option value="Nível_superior">Ensino superior completo</option>
+                        <option value="Mestrado">Mestrado completo</option>
+                        <option value="Doutorado">Doutorado completo</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="item">
+                <div>Tipo de aula</div>
+                <div>
+                    <span><input type="radio" name="tipo_de_aula" value="D" checked="checked"/>À distância</span>
+                    <span><input type="radio" name="tipo_de_aula" value="P">Presencial</span>
+                </div>
+            </div>
+
+            <div class="item">
+                <div>Tipo de atuação</div>
+                <div>
+                    <input type="text" name="tipo_de_atuação" placeholder="Digite o tipo de atuação">
+                </div>
+            </div>
+
+            <button type="submit">Salvar</button>
+
+        </div>
+
+    {% endblock content%}
+
+    {# <!-- O segundo valor estará selecionado inicialmente -->
+<select name="select">
+  <option value="valor1">Valor 1</option>
+  <option value="valor2" selected>Valor 2</option>
+  <option value="valor3">Valor 3</option>
+</select> #}
