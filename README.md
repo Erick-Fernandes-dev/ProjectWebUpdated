@@ -9,7 +9,7 @@
 - _**npm-run-all**_
 - _**fs**_
 
-![Tux, the Linux mascot](C:\Users\Erick\Pictures\Saved Pictures\ProjectWeb\updateProject.png)
+![Tux, the Linux mascot](https://media0.giphy.com/media/amrNGnZUeWhZC/200.webp?cid=ecf05e47k7s0zmsmd1s2oy5kd9p92lqj4sklwnskhdycaofi&rid=200.webp)
 
 
 
